@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import ArrowBackIcon from '@mui/icons-material/ArrowBack';
-import cabecalho from '../images/cabecalho.png';
+import logotipo from '../images/cabecalho.png';
 import car from '../images/car.png';
 import woman from '../images/woman.png';
 import {
@@ -55,7 +55,7 @@ class UserPage extends Component {
             <Container>
                 <Box sx={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
                     <Box sx={{ display: 'flex', alignItems: 'center' }}>
-                        <img src={cabecalho} alt="Logo" width="50px" height="50px" />
+                        <img src={logotipo} alt="logotipo da empresa" width="50px" height="50px" />
                         <Typography variant="h6">Ultracar</Typography>
                     </Box>
                     <Button startIcon={<ArrowBackIcon />} onClick={() => window.history.back()} variant="outlined">Voltar</Button>
