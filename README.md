@@ -22,7 +22,7 @@ O Ultracar é um aplicativo que tem como objetivo facilitar a vida de quem preci
 
 <h1> :open_file_folder: Acesso ao projeto</h1>
 
-:warning: Este aplicativo foi projetado para ser mobile, recomenda-se testa-lo em 390x844 :warning:
+:warning: Este aplicativo foi projetado para mobile, recomenda-se testar em 390x844 :warning:
 
 <p>
 Para ter acesso ao projeto primeiro você deve obter o código fonte:
