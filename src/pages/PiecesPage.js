@@ -1,9 +1,9 @@
 import React, { Component } from 'react';
 import ArrowBackIcon from '@mui/icons-material/ArrowBack';
-import cabecalho from '../images/cabecalho.png';
-import peca1 from '../images/piece1.png';
-import peca2 from '../images/piece2.png';
-import peca3 from '../images/piece3.png';
+import logotipo from '../images/cabecalho.png';
+import motor from '../images/motor.png';
+import tires from '../images/tires.png';
+import headlight from '../images/headlight.png';
 
 import {
     Box,
@@ -24,17 +24,17 @@ class PiecesPage extends Component {
                 {
                     name: 'Motor',
                     price: 100,
-                    image: peca1,
+                    image: motor,
                 },
                 {
                     name: 'Pneu',
                     price: 150,
-                    image: peca2
+                    image: tires
                 },
                 {
                     name: 'Farol',
                     price: 200,
-                    image: peca3
+                    image: headlight
                 }
             ],
             isLoading: false
@@ -57,7 +57,7 @@ class PiecesPage extends Component {
             <Container>
                 <Box sx={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
                     <Box sx={{ display: 'flex', alignItems: 'center' }}>
-                        <img src={cabecalho} alt="Logo" width="50px" height="50px" />
+                        <img src={logotipo} alt="logotipo da empresa" width="50px" height="50px" />
                         <Typography variant="h6">Ultracar</Typography>
                     </Box>
                     <Button startIcon={<ArrowBackIcon />} onClick={() => window.history.back()} variant="outlined">Voltar</Button>

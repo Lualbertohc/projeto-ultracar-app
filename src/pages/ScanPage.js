@@ -9,7 +9,7 @@ import {
   CircularProgress
 } from '@mui/material';
 import qrcode from '../images/qrcode.png';
-import cabecalho from '../images/cabecalho.png';
+import logotipo from '../images/cabecalho.png';
 
 class ScanPage extends Component {
   constructor(props) {
@@ -35,7 +35,7 @@ class ScanPage extends Component {
       <Container>
         <AppBar position="static">
           <Toolbar>
-            <img src={cabecalho} alt="logo" width="50" height="50" />
+            <img src={logotipo} alt="logotipo da empresa" width="50" height="50" />
             <Typography variant="h6" component="div" sx={{ flexGrow: 1 }}>
               Ultracar
             </Typography>
@@ -54,7 +54,7 @@ class ScanPage extends Component {
           </Typography>
           <img
             src={qrcode}
-            alt='QR Code Ilustrativo'
+            alt='QR Code ilustrativo'
             width='50%'
             maxWidth='300'
             height='auto'
