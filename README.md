@@ -7,7 +7,7 @@
 <h1> :blue_car: Introdução </h1>
 
 <p>
-O Ultracar é um aplicativo que tem como objetivo facilitar a vida de quem precisa de serviços mecânicos para o seu carro. Com ele você pode agendar serviços de manutenção e reparo para o seu carro diretamente pelo celular.
+O Ultracar é um aplicativo que simula app de serviços mecânicos.
 </p>
 
 <h1>🛠 Tecnologias usadas neste projeto</h1>
