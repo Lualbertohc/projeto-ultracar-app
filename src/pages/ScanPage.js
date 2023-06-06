@@ -50,7 +50,7 @@ class ScanPage extends Component {
           }}
         >
           <Typography component='h1' variant='h5'>
-            Escanear
+            Escanear qrcode
           </Typography>
           <img
             src={qrcode}
